@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+    --Very-Dark-Blue: hsl(243, 87%, 12%);
+--Desaturated-Blue: hsl(238, 22%, 44%);
+--BrightBlue: hsl(224, 93%, 58%);
+--ModerateCyan: hsl(170, 45%, 43%);
+--LightGrayishBlue: hsl(240, 75%, 98%);
+--LightGray: hsl(0, 0%, 75%);
+}
+
+
+nav,
+.action,
+.action-2,
+.action-2-links,
+.action-3,
+.email-text{
+    max-width: 1440px;
+    padding: 1rem;
+    margin: auto;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+.nav-links ul{
+    display: flex;
+    gap: 2rem;
+    
+    
+}
+
+
+.nav-links a{
+    color: var(--Very-Dark-Blue);
+}
+
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+
+.action-img img{
+    width: 500px;
+}
+
+
+.action-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.action-text h1{
+    width: 484px;
+}
+
+
+.action-text p{
+    width: 400px;
+}
+
+
+.action-input{
+    display: flex;
+    gap: 1rem;
+}
+
+
+.action-input input{
+    width: 300px;
+    height: 40px;
+}
+
+
+
+.action-input button,
+.email-button button{
+    width: 200px;
+    height: 40px;
+    background-color: var(--BrightBlue);
+    color: white;
+    border: 1px solid var(--BrightBlue);
+}
+
+
+.action-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.action-2-img img{
+    width: 400px;
+}
+
+
+.action-2-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+
+
+
+.action-2-text p{
+    width: 500px;
+}
+
+
+.action-3{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.action-3-text p{
+    width: 300px;
+    
+
+}
+
+
+.action-3-img{
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+
+
+.img-text p{
+    font-size: 10px;
+}
+
+
+.action-3-img img{
+    margin-top: 1rem;
+    width: 40px;
+    border-radius: 2rem;
+}
+
+
+.email-background{
+    background-color: var(--Desaturated-Blue);
+    color: white;
+    margin-top: 1rem;
+    height: 10rem;
+}
+
+
+.email-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.email-text-first{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.email-text p{
+    width: 400px;
+}
+
+
+.email-input{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.email-input input{
+    width: 300px;
+    height: 40px;
+}
+
+
+.email-button button{
+    margin-top: 1rem;
+}
+
+
+.fylo-background{
+    background-color: var(--Very-Dark-Blue);
+color: white;
+}
+
+
+.last-img{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.last-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.fylo-last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.last-links ul,
+.last-links-2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+
+
+ul{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+}
